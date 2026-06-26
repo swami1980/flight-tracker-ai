@@ -1,0 +1,13 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{ts,tsx}'],
+  theme: {
+    extend: {
+      animation: {
+        'spin-slow': 'spin 2s linear infinite',
+        'pulse-dot': 'pulse 1.5s ease-in-out infinite',
+      },
+    },
+  },
+  plugins: [],
+}
